@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_three">3dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
+    <dimen name="margin_default">8dp</dimen>
+    <dimen name="margin_tvelwe">12dp</dimen>
+    <dimen name="margin_big">16dp</dimen>
+    <dimen name="margin_favorite">40dp</dimen>
+
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_caption_height">30dp</dimen>
+
+    <dimen name="text_big">20sp</dimen>
+
+
+</resources>

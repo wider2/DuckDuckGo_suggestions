@@ -1,0 +1,1 @@
+It is just the testing application to check how DbFlow SQLlite works properly.

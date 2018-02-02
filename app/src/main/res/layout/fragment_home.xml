@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_bright"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginStart="@dimen/margin_default"
+        android:text="@string/app_header" />
+
+    <RelativeLayout
+        android:id="@+id/caption_layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:maxHeight="@dimen/toolbar_caption_height"
+        android:minHeight="@dimen/toolbar_caption_height"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/et_query"
+            style="@style/Caption.Header.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:hint="@string/input_query"
+            android:minWidth="80dp"
+            android:padding="@dimen/margin_default"
+            android:textSize="@dimen/text_big"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_default"
+            android:layout_marginStart="@dimen/margin_default"
+            android:text="" />
+    </ScrollView>
+
+    <!--
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/phrases_srl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_phrases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_five"
+                android:layout_marginTop="@dimen/margin_five"
+                android:scrollbars="vertical"
+                android:visibility="visible" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+    -->
+</LinearLayout>

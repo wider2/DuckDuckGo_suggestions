@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">RxJavaSearch</string>
+    <string name="app_header">DuckDuckGo search suggestions</string>
+
+    <string name="img">Image</string>
+    <string name="total_found">There are found</string>
+    <string name="not_found">There are nothing found by your request.</string>
+    <string name="favorite">Favorite</string>
+    <string name="reload">Reload beer from PunkApi server.</string>
+    <string name="action_loading">Loading. Please wait...</string>
+    <string name="reach_end">Reach end of list, loading new items...</string>
+    <string name="removed_favorite">removed from favorites.</string>
+    <string name="undo">Undo</string>
+    <string name="sort_name_asc">Beer sorted by name</string>
+    <string name="sort_name_desc">Beer sorted by name desc</string>
+    <string name="sort_abv_asc">Beer sorted by ABV</string>
+    <string name="sort_abv_desc">Beer sorted by ABV desc</string>
+    <string name="sort_ibu_asc">Beer sorted by IBU</string>
+    <string name="sort_ibu_desc">Beer sorted by IBU desc</string>
+    <string name="sort_ebc_asc">Beer sorted by EBC</string>
+    <string name="sort_ebc_desc">Beer sorted by EBC desc</string>
+
+
+    <string name="no_connection">There is no internet connection found. Please check the network settings, setup WiFi.</string>
+    <string name="msg_error_occurred">There is error occurred while implementing this request.</string>
+    <string name="network_settings">Network settings</string>
+    <string name="info_not_found">Item description not found.</string>
+    <string name="hello">Please click on breed of cat to see random profile from PetFinderAPI.</string>
+    <string name="please_wait_loading">Please wait while data are loading</string>
+    <string name="server_response">Server response</string>
+    <string name="no_response">Api server is busy right now and heve no response. Please wait some time to reload again.</string>
+
+    <string name="name">Name</string>
+    <string name="first_brewed">First brewed</string>
+    <string name="first_brewed_from">From</string>
+    <string name="tagline">Tags</string>
+    <string name="description">Description</string>
+    <string name="abv">ABV</string>
+    <string name="ibu">IBU</string>
+    <string name="ebc">EBC</string>
+    <string name="target_fg">Target FG</string>
+    <string name="target_og">Target OG</string>
+    <string name="srm">SRM</string>
+    <string name="ph">PH</string>
+    <string name="attenuation_level">Attenuation level</string>
+    <string name="volume">Volume</string>
+    <string name="boil_volume">Boil volume</string>
+    <string name="mash_temp">Mash temperature</string>
+    <string name="duration">Duration</string>
+    <string name="ferm_temp">Fermentation temperature</string>
+    <string name="food_pairing">Food pairing</string>
+    <string name="brewers_tips">Brewers tips</string>
+    <string name="by">Contributed by</string>
+
+    <string name="input_query">Input your query</string>
+    <string name="ok">OK</string>
+    <string name="permission_storage_rationale">Access to the storage is needed</string>
+    <string name="no_storage_permission">This application cannot run because it does not have the storage permission. The application will now exit.</string>
+
+
+</resources>
