@@ -132,15 +132,15 @@ public class HomeFragmentPresenter {
 
 
                 subject.onNext(query);
-                subject.debounce(900, TimeUnit.MILLISECONDS)
-                        .distinctUntilChanged()
+                subject.debounce(300, TimeUnit.MILLISECONDS)
                         .filter(new Predicate<String>() {
                             @Override
                             public boolean test(String x) throws Exception {
                                 return x.length() >= 3;
+                                //return (x.isEmpty() ? false : true);
                             }
                         })
-
+                        .distinctUntilChanged()
                         .switchMap(new Function<String, Observable<List<DuckGoSuggestion>>>() {
                             @Override
                             public Observable<List<DuckGoSuggestion>> apply(@NonNull String s) throws Exception {
